@@ -135,6 +135,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f5e71b64f4bea343b50bf48fd48aa2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allRoundData:
+  - name: Round 0
+    timeLimitInSeconds: 30
+    pointsAddedForCorrectAnswer: 10
+    questions:
+    - questionText: Are lions carnivors?
+      answers:
+      - answerText: Yes
+        isCorrect: 1
+      - answerText: No
+        isCorrect: 0
+    - questionText: Where do mice live?
+      answers:
+      - answerText: on moon
+        isCorrect: 0
+      - answerText: on land
+        isCorrect: 1
+      - answerText: in the sea
+        isCorrect: 0
+    - questionText: What do frogs eat?
+      answers:
+      - answerText: flies
+        isCorrect: 1
+      - answerText: pizza
+        isCorrect: 0
 --- !u!4 &1323710065
 Transform:
   m_ObjectHideFlags: 0
